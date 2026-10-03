@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "dry_run": true,
+    "pr_allowlist": [],
+    "trusted_authors": [],
+    "review_model": "CHOOSE_YOUR_MODEL",
+    "review_effort": "high",
+    "codex_timeout": 1800,
+    "max_rounds": 3,
+    "max_conflict_resolves": 2,
+    "max_parallel_prs": 1,
+    "merge_method": "squash",
+    "diff_max_bytes": 100000,
+    "diff_exclude": [],
+    "protected_paths": [".github/"]
+  },
+  "notify": {
+    "lifecycle_observer": false,
+    "dry_run": true,
+    "channel": null,
+    "target": null
+  },
+  "labeler": {
+    "enabled": false,
+    "dry_run": true,
+    "include_diff": false,
+    "merged_lookback_hours": 0
+  },
+  "repos": []
+}

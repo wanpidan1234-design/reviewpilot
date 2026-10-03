@@ -1,0 +1,4 @@
+interface:
+  display_name: "ReviewPilot"
+  short_description: "Prepare and run scoped ReviewPilot PR workflows"
+  default_prompt: "Use $reviewpilot to inspect my selected installation and prepare an authorized workflow for one GitHub pull request."

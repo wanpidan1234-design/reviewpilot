@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+REVIEWPILOT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -x "$REVIEWPILOT_DIR/.venv/bin/python" ]; then
+  exec "$REVIEWPILOT_DIR/.venv/bin/python" "$REVIEWPILOT_DIR/reviewpilot.py" "$@"
+fi
+exec python3 "$REVIEWPILOT_DIR/reviewpilot.py" "$@"

@@ -1,0 +1,42 @@
+# Machine-local settings and credentials
+/config.yml
+/config.yaml
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+credentials.json
+
+# Environments, dependencies and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Repository checkouts and workflow data
+/repos/
+/worktrees/
+/state/
+/notifications/
+/logs/
+/locks/
+/archive/
+*.log
+*.lock
+*.tar.gz
+*.zip
+
+# Local editor/agent files
+.DS_Store
+.idea/
+.vscode/
+/.codex/
+/.agents/
+INSTALLATION.md
